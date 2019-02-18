@@ -1,3 +1,7 @@
+/*
+ * ASTからコードを生成するサンプル
+ */
+
 const generate = require("@babel/generator").default;
 
 const ast = require("../parser/example");

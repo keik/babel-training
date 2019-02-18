@@ -1,3 +1,9 @@
+/*
+ * コードを雑に変換するサンプル
+ *
+ * コード内の全ての識別子を `what?` に変更する。
+ */
+
 const generate = require("@babel/generator").default;
 const traverse = require("@babel/traverse").default;
 
