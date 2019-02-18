@@ -7,7 +7,7 @@
 const generate = require("@babel/generator").default;
 const traverse = require("@babel/traverse").default;
 
-const ast = require("../parser/example");
+const ast = require("../1-parser/example");
 
 // AST 内を探索しながらコードを書き換える。
 traverse(ast, {

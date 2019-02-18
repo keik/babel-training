@@ -4,7 +4,7 @@
 
 const generate = require("@babel/generator").default;
 
-const ast = require("../parser/example");
+const ast = require("../1-parser/example");
 
 // AST からミニファイ済みコードを生成する。
 const generated = generate(ast, { minified: true });

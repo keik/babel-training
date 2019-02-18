@@ -9,7 +9,7 @@ const parser = require("@babel/parser");
 const generate = require("@babel/generator").default;
 const traverse = require("@babel/traverse").default;
 
-const ast = require("../parser/example");
+const ast = require("../1-parser/example");
 
 // 削除するコードサンプルのASTを作る。
 const willRemovedCallExpressionAst = parser.parse(`console.info()`).program
