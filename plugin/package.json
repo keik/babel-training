@@ -1,0 +1,13 @@
+{
+  "name": "babel-remove-console-info-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "babel-remove-console-info-plugin.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "keik",
+  "license": "MIT"
+}
